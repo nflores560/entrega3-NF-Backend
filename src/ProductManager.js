@@ -63,7 +63,7 @@ class ProductManager {
     const productIndex = this.products.findIndex(product => product.id === idProduct);
 
     if (productIndex === -1) {
-      console.log("Not found");
+      console.log("Not Found");
       return;
     }
 
@@ -76,7 +76,7 @@ class ProductManager {
     const productIndex = this.products.findIndex(product => product.id === idProduct);
 
     if (productIndex === -1) {
-      console.log("Not found");
+      console.log("Not Found");
       return;
     }
 
